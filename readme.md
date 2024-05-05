@@ -46,3 +46,38 @@ Props (short for properties) are a mechanism for passing data from parent to chi
 ### Resources
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [Vite Documentation](https://vitejs.dev/guide/)
+
+- # React Learning Journey - Day Three
+
+Welcome to day three of my React learning journey! Today, I worked on two projects: bgChanger and passwordGenerator. In addition to building these projects, I delved into the concepts of useCallback and useEffect in React.
+
+## Projects Created
+### 1. bgChanger
+- Description: bgChanger is a simple React application that allows users to change the background color by clicking a button.
+- Features:
+  - Utilizes the useState hook to manage state.
+  - Implements useCallback hook to optimize performance by memoizing a callback function.
+
+### 2. passwordGenerator
+- Description: passwordGenerator is a React application that generates random passwords based on user preferences.
+- Features:
+  - Utilizes the useState hook to manage state.
+  - Implements useEffect hook to perform side effects such as updating the password when user preferences change.
+
+## Concepts Explored
+### 1. useCallback
+- useCallback is a React hook used to memoize functions, which helps optimize performance by preventing unnecessary re-renders of child components that rely on these functions.
+
+### 2. useEffect
+- useEffect is a React hook used to perform side effects in function components. It allows us to perform actions such as data fetching, subscriptions, or manually changing the DOM in a declarative way.
+
+## Challenges Faced
+While working on these projects and exploring the new concepts, I encountered challenges in understanding the nuances of when to use useCallback versus useMemo, and how to effectively manage side effects with useEffect. However, through experimentation and consulting documentation, I was able to overcome these hurdles and deepen my understanding.
+
+## Future Steps
+In the upcoming sessions, I plan to further enhance my understanding of React by exploring more advanced topics such as context API, Redux for state management, and integrating external APIs into my projects.
+
+## Resources
+- [React Documentation - useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback)
+- [React Documentation - useEffect](https://reactjs.org/docs/hooks-effect.html)
+
